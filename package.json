@@ -1,0 +1,18 @@
+{
+  "name": "headstorage",
+  "version": "0.0.0",
+  "description": "A persistent storage for Node.js",
+  "main": "storage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/headhsu2568/hEaDstorage.git"
+  },
+  "keywords": [
+    "storage"
+  ],
+  "author": "Yen-Chun Hsu",
+  "license": "BSD"
+}

@@ -1,7 +1,7 @@
 hEaDstorage
 ======
 
-A persistent storage for Node.js
+A persistent storage which provides HTML5 WebStorage-like APIs for Node.js
 
 Install
 -------
@@ -32,3 +32,8 @@ Manipulation
 
 #### Get the amount of items ####
     var amount = storage.length;
+
+<br />
+- - -
+###### by _Yen-Chun Hsu_ #######
+- - -

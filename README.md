@@ -1,5 +1,5 @@
-hEaDstorage
-======
+hEaDstorage v0.0.0
+==================
 
 A persistent storage which provides HTML5 WebStorage-like APIs for Node.js
 
@@ -9,9 +9,9 @@ Install
 
 How to use
 ----------
-    var S = require('headstorage');
+    var HEADSTORAGE = require('headstorage');
     var storagePath = 'storageFile';
-    var storage = new S(storagePath, true);
+    var storage = new HEADSTORAGE(storagePath, true);
 
 Manipulation
 ------------
@@ -19,7 +19,7 @@ Manipulation
     storage.setItem('name', 'hEaD');
 
 #### Get an item by specific key ####
-    var name = getItem('name');
+    var name = storage.getItem('name');
 
 #### Remove an item by specific key ####
     storage.removeItem('name');

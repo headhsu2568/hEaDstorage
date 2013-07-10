@@ -1,7 +1,7 @@
 /***
  * hEaDstorage
  *      Author: Yen-Chun Hsu (headhsu2568)
- *      Source: https://github.com/headhsu2568/storage
+ *      Source: https://github.com/headhsu2568/hEaDstorage
  *
  *      a storage structure which can be used to implement HTML5 WebStorage, server-side session, etc.
  *      reference: Github - coolaj86 / node-LocalStorage (https://github.com/coolaj86/node-LocalStorage)
@@ -122,4 +122,3 @@ function is_object(obj) {
     else if(typeof obj == 'object' && Object.prototype.toString.call(obj) !== '[object Array]') return true;
     else return false;
 }
-

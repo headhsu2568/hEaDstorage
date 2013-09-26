@@ -1,6 +1,6 @@
 {
   "name": "headstorage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A persistent storage for Node.js",
   "main": "storage.js",
   "scripts": {

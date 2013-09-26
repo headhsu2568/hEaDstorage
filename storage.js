@@ -82,7 +82,7 @@ Storage.prototype.setItem = function(key, value) {
     if(f) {
         this.strg[key] = value;
         var json = JSON.stringify(this.strg);
-        console.log(json);
+        //console.log(json);
         if(this.length == 1 && !this.auto) fs.writeFileSync(this.strgFile, json, 'utf8');
         else {
             var strgFile = this.strgFile;

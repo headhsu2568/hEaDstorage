@@ -1,7 +1,7 @@
 hEaDstorage
 ===========
 
-#### v0.1.0
+#### v0.1.1
 
 A persistent storage which provides HTML5 WebStorage-like APIs for Node.js
 
